@@ -71,3 +71,84 @@ body {
     transform: scale(0.9);
 }
 /* Login */
+/* Parent Section */
+/* Floral Section */
+.floralSection {
+    padding: 3rem 0;
+    background-color: #f9f9f9; /* Optional: add background color */
+    text-align: center; /* Center all content within this section */
+}
+
+/* Title */
+.floralSection .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Shop All Link */
+.floralSection .shopAllLink {
+    font-size: 1.2rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.floralSection .shopAllLink:hover {
+    text-decoration: underline;
+}
+
+/* Card Container */
+.floralSection .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Cards */
+.floralSection .card {
+    border: none;
+    background: transparent;
+    margin: 1rem 0;
+    position: relative;
+}
+
+/* Card Image */
+.floralSection .card i mg {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make image circular */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Best Seller Badge */
+.floralSection .card .bestSellerBadge {
+    position: absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    right: 10px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+/* Card Title */
+.floralSection .card .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Card Text */
+.floralSection .card .card-body .card-text {
+    font-size: 1rem;
+    color: #666;
+}
